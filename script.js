@@ -1,5 +1,6 @@
 "use strict";
-const counter=200;
+// const counter=200;
+var counter=200;
 
 const initialObject={
   pro_1:20,
