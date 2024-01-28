@@ -45,7 +45,7 @@ const initialObject={
     console.log(this);
     console.log(`Cannot return the value of pro_1 ${this.pro_1}`);
 
-    //This is because const is block scoped, and global object or window is not a block, so counter is global scoped but not a property of global
+    //This is because const is block scoped, and global object or window is a global scope itself not a block scope, so counter is global scoped but not a property of global
     //object
     console.log(`If counter set const value is not accessed, if var value is accessed: ${this.counter}`);
   },
